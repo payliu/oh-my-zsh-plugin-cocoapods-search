@@ -16,15 +16,14 @@ $ curl https://raw.github.com/payliu/oh-my-zsh-plugin-cocoapods-search/master/co
 In your `.zshrc`, add plugin `cocoapods-search` 
 
 ex:
-
 ```sh
 # .zshrc
 plugins=(git sublime cocoapods-search)
 ```
 
-## use
+## Use
 
-remember to restart shell
+Remember to restart shell
 
 ```sh
 $ cocoapods AFNetwork
