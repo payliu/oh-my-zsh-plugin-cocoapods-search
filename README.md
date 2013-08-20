@@ -3,13 +3,17 @@ oh-my-zsh-plugin-cocoapods-search
 
 pod search from Web site: http://cocoapods.org
 
+
+## Install
+
 ```
-$ mkdir -p ~/.oh-my-zsh/custom/plugins
-$ cd ~/.oh-my-zsh/custom/plugins
-$ git clone https://github.com/payliu/oh-my-zsh-plugin-cocoapods-search.git cocoapods-search
+$ mkdir -p ~/.oh-my-zsh/custom/plugins/cocoapods-search
+$ cd ~/.oh-my-zsh/custom/plugins/cocoapods-search
+$ curl https://raw.github.com/payliu/oh-my-zsh-plugin-cocoapods-search/master/cocoapods-search/cocoapods-search.plugin.zsh > cocoapods-search.plugin.zsh 
 ```
 
-In your `.zshrc`, add `cocoapods-search` into plugins
+## Configuration
+In your `.zshrc`, add plugin `cocoapods-search` 
 
 ex:
 
@@ -19,6 +23,8 @@ plugins=(git sublime cocoapods-search)
 ```
 
 ## use
+
+remember to restart shell
 
 ```
 $ cocoapods AFNetwork
